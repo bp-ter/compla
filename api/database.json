@@ -1,0 +1,18 @@
+{
+  "complaints": [
+    {
+      "complainant": "Kiss Pista",
+      "description": "Nem akar bekapcsolni a monitor",
+      "products": "Samsung monitor",
+      "type": "Függőben",
+      "id": 1
+    },
+    {
+      "complainant": "Tóth Anna",
+      "description": "Vártnál hamarabb merül az akkumlátor",
+      "products": "Laptop",
+      "type": "Lezárt",
+      "id": 2
+    }
+  ]
+}

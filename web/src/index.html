@@ -1,0 +1,65 @@
+<!--
+  File: index.html
+  Author: Berta Péter
+  Copyright: 2024, Berta Péter
+  Group: Szoft 1-2-N
+  Date: 2024-05-08
+  Github: https://github.com/bp-ter/
+  Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Panasz bejelentő</h1>
+
+      <div class="input">
+        <label for="complainant" class="form-label">Bejelentő neve:</label>
+        <input type="text" id="complainant"class="form-control">
+      </div>
+      
+      <div class="input">
+        <label for="description" class="form-lable">Panasz leírása: </label>
+        <input type="text" id="description" class="form-control">
+      </div>
+      
+      <div class="input">
+        <label for="products" class="form-lable">Termék megnevezése: </label>
+        <input type="text" id="products" class="form-control">
+      </div>
+
+      <div class="input">
+        <label for="type" class="form-lable">Panasz állapota: </label>
+        <input type="text" id="type" class="form-control">
+      </div>
+
+      <div>
+        <button class="btn btn-primary mt-2" id="saveButton">Mentés</button>
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Bejelentő neve</th>
+            <th>Panasz leírása</th>
+            <th>Termék megnevezése</th>
+            <th>Panasz állapota</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="compsBody"></tbody>
+      </table>
+
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
